@@ -6,7 +6,9 @@
 	},
 	"runArgs": [
 		"--init",
-		"--privileged"
+		"--privileged",
+		"-v/usr/local/share/ca-certificates:/usr/local/share/ca-certificates",
+		"-v/usr/share/ca-certificates:/usr/share/ca-certificates"
 	],
 	"containerEnv": {
 		"GITHUB_API_TOKEN": "${localEnv:GITHUB_API_TOKEN}"

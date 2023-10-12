@@ -1,4 +1,4 @@
-# Copyright (c) 2022-2023 Robert Bosch GmbH and Microsoft Corporation
+# Copyright (c) 2022 Robert Bosch GmbH and Microsoft Corporation
 #
 # This program and the accompanying materials are made available under the
 # terms of the Apache License, Version 2.0 which is available at
@@ -18,7 +18,6 @@ import json
 import logging
 
 from vehicle import Vehicle  # type: ignore
-
 from velocitas_sdk.util.log import (  # type: ignore
     get_opentelemetry_log_factory,
     get_opentelemetry_log_format,
